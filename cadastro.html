@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Jogo </title>
+    <title>Document</title>
 </head>
 <body>
-   <h2>Cadastro</h2>
-   <form method="POST">
-   <label>Nome:</label><br>
-   <input type="text" name="nome"><br><br>
+    <h1>Formulário de Cadastro</h1>
+    <form action="/validacao" method="post">
 
-   <label>Selecione o jogo:</label>
-   <input type="radio" name="jogo" value="jogo1"> Jogo 1 <br/>
-   <input type="radio" name="jogo" value="jogo2"> Jogo 2 <br/>
-   <input type="radio" name="jogo" value="jogo3"> Jogo 3 <br/>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
 
-   <label>E-mail:</label><br>
-   <input type="text" name="email"><br><br>
-   <button type="text" name="nome"> Cadastrar</button>
+        <label for="email">E-mail:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade"><br><br>
+
+        <button type="submit">Cadastras</button>
     </form>
-
-<p>{{ mensagem }}</p>
 </body>
 </html>
