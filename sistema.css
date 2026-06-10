@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+}
+.claro{
+    background-color: white;
+    color: black;
+}
+
+.escuro{
+    background-color: #222;
+    color: white;
+}
+
+.escuro a{
+    background-color: #444;
+    color: white;
+}
